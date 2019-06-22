@@ -1,0 +1,6 @@
+body{
+    border: blue 3px outset;
+}
+body *{
+    padding-left: 7px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Parcel Services</title>
+   
+</head>
+<body>
+    <form action="/results" method="get">
+        <label>Weight Of Mail (oz):</label>
+        <input type="decimal" name="weight"><br>
+		<label>Select a Mail Option</label>
+        <select name="mail_type">
+			<option name="mail" value="L_S">Letters (Stamped) </option>
+			<option name="mail" value="L_M">Letters (Metered) </option>
+			<option name="mail" value="L_E_F">Large Envelopes (Flats) </option>
+			<option name="mail" value="F_C_P">First-Class Package </option>
+		</select>
+		<br>
+		<input type="submit" value="submit" name="cal_postage">
+    </form>
+</body>
+</html>
