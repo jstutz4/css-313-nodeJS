@@ -82,7 +82,7 @@ function getResults(res, req) {
         console.log(message + price + weight);
     }
     else {
-        message = "We do not ship the parcel that you have"
+        message = "We do not ship these kind of parcel that are "
     }
     req.render('pages/results', { 'price': price, 'message': message, 'weight':weight });
 }
