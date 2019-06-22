@@ -28,6 +28,7 @@ function getResults(res, req) {
             //this should not happen
             price = 1000;
         }
+        var message = "You may send your parcel"
     }
     else if (mailType == "L_M" && weight < 3.5) {
         if (weight < 1) {
@@ -46,6 +47,7 @@ function getResults(res, req) {
             //this should not happen
             price = 1000;
         }
+        var message = "You may send your parcel"
     }
     else if (mailType == "L_E_F" && weight < 13) {
         if (math.trunc(weight) == weight) {
